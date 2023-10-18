@@ -1,0 +1,56 @@
+Metadata for manuscript entitled “Impacts of habitat connectivity on grassland arthropod metacommunity structure: a field-based experimental test of theory”.
+
+Repository description:
+
+R and Primer-E scripts and data used to calculate arthropod abundance, alpha and beta diversity, and trophic interactions as a function of grassland connectivity treatment.
+
+Authors: 
+Frank Bertellotti
+Yale University, School of the Environment, New Haven, CT 06511, USA
+franklin.bertellotti@yale.edu
+
+Nathalie Sommer 
+Yale University, School of the Environment, New Haven, CT 06511, USA
+nathalie.sommer@yale.edu
+
+Oswald J. Schmitz
+Yale University, School of the Environment, New Haven, CT 06511, USA
+oswald.schmitz@yale.edu
+
+Matthew A. McCary
+Department of BioSciences, Rice University, Houston, TX 77005, USA
+matt.mccary@gmail.com
+
+File list (files can be found at https://github.com/mmccar26/meta_community_arthropods):
+
+Meta-community-pitfall_traps_Primer.pwk
+Meta-community-sticky-cards_Primer.pwk
+Meta_ecosystems.Rproj
+Pitfall_analysis_all_years_Final-Final.R
+Pitfall_data_Yale_Myers_Final.csv
+Pitfall_data_Yale_Myers_Primer.xlsx
+Sticky_trap_analysis_all_Final-Final.R
+Sticky_traps_Yale_Myers_Final.csv
+Sticky_traps_Yale_Myers_Primer.xlsx
+
+File descriptions:
+
+Meta-community-pitfall_traps_Primer.pwk:  Script used in the Primer-E program to analyze how ground arthropod beta diversity is affected by grassland connectivity.
+
+Meta-community-sticky-cards_Primer.pwk:  Script used in Primer-E to evaluate how flying arthropod beta diversity is impacted by grassland connectivity.
+
+Meta_ecosystems.Rproj:  The R Studio Project that hosts the R environment to run most of the analyses.
+
+Pitfall_analysis_all_years_Final-Final.R:  The underlying R code to analyze the impacts of connectivity on ground arthropod abundance, alpha diversity, and trophic interactions using structural equation modeling.
+
+Pitfall_data_Yale_Myers_Final.csv:  Data collected to estimate how ground arthropods are affected by connectivity treatments. This file supports the data shown in Figures 1 and 3 of the manuscript.
+
+Pitfall_data_Yale_Myers_Primer.xlsx:  Data collected to estimate how ground arthropod beta diversity is affected by connectivity treatments. This file supports the data shown in Figure 2 of the manuscript.
+
+Sticky_trap_analysis_all_Final-Final.R:  The R code used to analyzed the effects of connectivity on flying arthropod abundance and alpha diversity.
+
+Sticky_traps_Yale_Myers_Final.csv:  Data collected to test how flying arthropods are affected by connectivity treatments.
+
+Sticky_traps_Yale_Myers_Primer.xlsx:  Data collected to estimate how flying arthropod beta diversity is affected by connectivity treatments. This file supports the data shown in Figure 2 of the manuscript.
+
+Note: All R files must be imported into your working directory for the analysis to work. The community composition analyses were conducted using the Primer-E program.
